@@ -52,6 +52,16 @@ Building native libraries for Windows (using mingw-w64) and linux is done in one
 1. `make`
 1. To run, simply execute: `build/hackrf_sweep_spectrum_analyzer_linux.sh`
 
+Mac OS X:  
+  
+1. Ensure XCode is installed.
+1. To run ensure these packages are installed via Brew:
+`libusb fftw openjdk ant`
+1. `git clone --depth=1 https://github.com/pavsa/hackrf-spectrum-analyzer.git`
+1. `cd hackrf-spectrum-analyzer/src/hackrf-sweep/`
+1. `make -f Makefile.osx`
+1. To run, simply execute: `build/hackrf_sweep_spectrum_analyzer_linux.sh`
+
 ### Known issues:
 * Spectrum updates stop on parameter change
   * Solution: press reset button on the HackRF (firmware bug)
