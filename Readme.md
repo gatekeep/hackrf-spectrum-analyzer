@@ -1,4 +1,4 @@
-# Spectrum Analyzer GUI for hackrf_sweep for Windows/Linux
+# Spectrum Analyzer GUI for hackrf_sweep for Windows/Linux/OSX
 
 ![screenshot](screenshot.gif "screenshot")
 
